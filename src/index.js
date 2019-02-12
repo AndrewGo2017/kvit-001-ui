@@ -1,4 +1,4 @@
-import "@babel/polyfill";
+import "babel-polyfill";
 import "es6-promise";
 import "isomorphic-fetch";
 import React from "react";
