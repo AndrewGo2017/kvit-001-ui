@@ -1,6 +1,6 @@
 class EntityService {
-  // static URL = "http://localhost:8889/k001";
-  static URL = "https://kvit-001-back.herokuapp.com/k001";
+  static URL = "http://localhost:8889/k001";
+  //static URL = "https://kvit-001-back.herokuapp.com/k001";
 
   constructor(entityName) {
     this.entityName = entityName;

@@ -1,3 +1,6 @@
+import "@babel/polyfill";
+import "es6-promise";
+import "isomorphic-fetch";
 import React from "react";
 import { render } from "react-dom";
 import "./index.css";
