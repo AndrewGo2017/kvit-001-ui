@@ -6,6 +6,10 @@ import ErrorBoundary from "./ErrorBoudary";
 import { entities } from "../data";
 
 export default class extends Component {
+  componentDidMount() {
+    document.title = "Квитанции";
+  }
+
   refresh() {
     for (let i = 0; i < entities.length; i++) {
       localStorage.removeItem(entities[i]);
